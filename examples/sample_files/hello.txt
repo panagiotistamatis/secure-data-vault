@@ -1,0 +1,5 @@
+Hello from the Secure Data Vault demo.
+
+This is a synthetic sample file with no personal data. Upload it through the
+CLI or GUI to see it encrypted (AES-256-CBC), its key wrapped with your own
+RSA public key, and a vault signature attached for tamper-evidence.

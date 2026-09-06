@@ -1,0 +1,8 @@
+Design notes (sample file, no personal data)
+=============================================
+
+- Files are encrypted with AES-256 in CBC mode using a random per-file key.
+- The per-file AES key is wrapped with the uploading user's RSA-2048 public key
+  using OAEP, so only that user can unwrap it. The vault cannot read the file.
+- The vault signs the SHA-256 of the stored ciphertext with RSA-PSS, giving
+  tamper-evidence that a client can verify on retrieval.

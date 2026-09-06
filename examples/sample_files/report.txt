@@ -1,0 +1,13 @@
+Quarterly Widget Report (synthetic sample data)
+================================================
+
+Region        Units Shipped    Returns
+------------  --------------   --------
+North              1,240            12
+South                980             7
+East               1,510            21
+West                 875             4
+
+All figures above are fictional and contain no personal information. This file
+exists only to demonstrate storing and retrieving a multi-line document in the
+Secure Data Vault.
